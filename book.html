@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Book Now — Sri Sai Krishna Mahal</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Floating Background Shapes -->
+  <div class="bg-shape circle1"></div>
+  <div class="bg-shape circle2"></div>
+  <div class="bg-shape circle3"></div>
+
+  <div class="bg-shape square1"></div>
+  <div class="bg-shape square2"></div>
+
+  <div class="bg-shape triangle1"></div>
+  <div class="bg-shape triangle2"></div>
+
+  <div class="bg-shape blob1"></div>
+  <div class="bg-shape blob2"></div>
+  <div class="bg-shape blob3"></div>
+
+
+  <header class="nav-wrap glass">
+    <div class="container nav">
+      <a class="brand" href="index.html">Sri Sai Krishna Mahal</a>
+      <nav class="nav-links" id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="facilities.html">Facilities</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="book.html" class="active">Book Now</a>
+        <a href="contact.html">Contact</a>
+        <a href="admin.html">Admin</a>
+      </nav>
+      <button id="navToggle" aria-label="toggle"><i class="fa fa-bars"></i></button>
+    </div>
+  </header>
+
+  <main>
+    <section class="container" data-aos="fade-up">
+      <h1>Book Your Event</h1>
+      <p class="lead">Fill the form — we’ll get back to you quickly to confirm availability and pricing.</p>
+
+      <form id="bookingForm" class="booking-form glass" data-aos="fade-up" novalidate>
+        <div class="form-grid">
+          <label class="field">
+            <span>Full name</span>
+            <input type="text" id="name" required placeholder="Your name">
+          </label>
+
+          <label class="field">
+            <span>Phone</span>
+            <input type="tel" id="phone" required placeholder="+91 9xxxxxxxxx">
+          </label>
+
+          <label class="field">
+            <span>Email</span>
+            <input type="email" id="email" placeholder="you@example.com">
+          </label>
+
+          <label class="field">
+            <span>Event Type</span>
+            <select id="eventType" required>
+              <option>Wedding</option>
+              <option>Reception</option>
+              <option>Birthday</option>
+              <option>Corporate</option>
+              <option>Other</option>
+            </select>
+          </label>
+
+          <label class="field">
+            <span>Date</span>
+            <input type="date" id="date" required>
+          </label>
+
+          <label class="field">
+            <span>Estimated Guests</span>
+            <input type="number" id="guests" min="1" required placeholder="e.g. 120">
+          </label>
+
+          <label class="field field-full">
+            <span>Message / Requirements</span>
+            <textarea id="notes" placeholder="Tell us about catering, layout, timing..."></textarea>
+          </label>
+        </div>
+
+        <div class="form-actions">
+          <button type="submit" class="btn-primary">Submit Booking</button>
+          <button type="reset" class="btn-outline">Reset</button>
+        </div>
+
+        <div id="bookingMsg" class="form-msg" aria-live="polite"></div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div><h4>Sri Sai Krishna Mahal</h4><p>Elegant events • Friendly staff</p></div>
+      <div><h4>Quick Links</h4><a href="facilities.html">Facilities</a></div>
+      <div><h4>Contact</h4><p>+91 98xxxxxxx</p></div>
+    </div>
+    <div class="copyright">© <span id="year4"></span> Sri Sai Krishna Mahal</div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script src="assets/script.js"></script>
+  <script> AOS.init({duration:700, once:true}); </script>
+</body>
+</html>

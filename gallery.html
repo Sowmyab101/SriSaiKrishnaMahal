@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Gallery — Sri Sai Krishna Mahal</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Floating Background Shapes -->
+  <div class="bg-shape circle1"></div>
+  <div class="bg-shape circle2"></div>
+  <div class="bg-shape circle3"></div>
+
+  <div class="bg-shape square1"></div>
+  <div class="bg-shape square2"></div>
+
+  <div class="bg-shape triangle1"></div>
+  <div class="bg-shape triangle2"></div>
+
+  <div class="bg-shape blob1"></div>
+  <div class="bg-shape blob2"></div>
+  <div class="bg-shape blob3"></div>
+
+
+  <header class="nav-wrap glass">
+    <div class="container nav">
+      <a class="brand" href="index.html">Sri Sai Krishna Mahal</a>
+      <nav class="nav-links" id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="facilities.html">Facilities</a>
+        <a href="gallery.html" class="active">Gallery</a>
+        <a href="book.html">Book Now</a>
+        <a href="contact.html">Contact</a>
+        <a href="admin.html">Admin</a>
+      </nav>
+      <button id="navToggle" aria-label="toggle"><i class="fa fa-bars"></i></button>
+    </div>
+  </header>
+
+  <main>
+    <section class="container" data-aos="fade-up">
+      <h1>Gallery</h1>
+      <p class="lead">A selection of moments captured at the hall.</p>
+
+      <div class="masonry" id="masonry">
+        <!-- Replace these src values with actual photos -->
+        <figure class="masonry-item" data-aos="zoom-in">
+          <img src="assets/stage.jpg" alt="event photo" />
+          <figcaption><strong>Reception Night</strong><span>— Warm & elegant</span></figcaption>
+        </figure>
+        <figure class="masonry-item" data-aos="zoom-in" data-aos-delay="80">
+          <img src="assets/dining.jpg" alt="event photo" />
+          <figcaption><strong>Family Event</strong><span>— Intimate setup</span></figcaption>
+        </figure>
+        <figure class="masonry-item" data-aos="zoom-in" data-aos-delay="160">
+          <img src="assets/stage.jpg" alt="event photo" />
+          <figcaption><strong>Stage Decor</strong><span>— Lighting & colors</span></figcaption>
+        </figure>
+        <figure class="masonry-item" data-aos="zoom-in" data-aos-delay="240">
+          <img src="assets/hallview.jpg" alt="event photo" />
+          <figcaption><strong>Banquet</strong><span>— Spacious seating</span></figcaption>
+        </figure>
+      </div>
+
+      <div class="gallery-note" data-aos="fade-up">
+        <p>Want to add more photos or curated captions? Send images to <a href="mailto:events@srisai.com">events@srisai.com</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div><h4>Sri Sai Krishna Mahal</h4><p>Elegant events • Friendly staff</p></div>
+      <div><h4>Quick Links</h4><a href="book.html">Book Now</a></div>
+      <div><h4>Contact</h4><p>+91 98xxxxxxx</p></div>
+    </div>
+    <div class="copyright">© <span id="year3"></span> Sri Sai Krishna Mahal</div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script src="assets/script.js"></script>
+  <script> AOS.init({duration:700, once:true}); </script>
+</body>
+</html>

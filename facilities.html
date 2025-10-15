@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Facilities — Sri Sai Krishna Mahal</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Floating Background Shapes -->
+  <div class="bg-shape circle1"></div>
+  <div class="bg-shape circle2"></div>
+  <div class="bg-shape circle3"></div>
+
+  <div class="bg-shape square1"></div>
+  <div class="bg-shape square2"></div>
+
+  <div class="bg-shape triangle1"></div>
+  <div class="bg-shape triangle2"></div>
+
+  <div class="bg-shape blob1"></div>
+  <div class="bg-shape blob2"></div>
+  <div class="bg-shape blob3"></div>
+
+
+  <!-- header same as index -->
+  <header class="nav-wrap glass">
+    <div class="container nav">
+      <a class="brand" href="index.html">Sri Sai Krishna Mahal</a>
+      <nav class="nav-links" id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="facilities.html" class="active">Facilities</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="book.html">Book Now</a>
+        <a href="contact.html">Contact</a>
+        <a href="admin.html">Admin</a>
+      </nav>
+      <button id="navToggle" aria-label="toggle"><i class="fa fa-bars"></i></button>
+    </div>
+  </header>
+
+  <main>
+    <section class="container" data-aos="fade-up">
+      <h1>Facilities</h1>
+      <p class="lead">Complete solutions for memorable events — built for comfort and style.</p>
+
+      <div class="fac-grid">
+        <div class="fac-card glass" data-aos="flip-left">
+          <i class="fa fa-music fa-3x accent"></i>
+          <h3>Sound & Lighting</h3>
+          <p>Professional sound system and stage lighting setups for any event size.</p>
+        </div>
+
+        <div class="fac-card glass" data-aos="flip-left" data-aos-delay="100">
+          <i class="fa fa-chair fa-3x accent"></i>
+          <h3>Seating & Layouts</h3>
+          <p>Flexible seating plans including banquet, theatre, and custom layouts.</p>
+        </div>
+
+        <div class="fac-card glass" data-aos="flip-left" data-aos-delay="200">
+          <i class="fa fa-wifi fa-3x accent"></i>
+          <h3>High-speed WiFi</h3>
+          <p>Reliable connectivity for hosts and guests.</p>
+        </div>
+
+        <div class="fac-card glass" data-aos="flip-left" data-aos-delay="300">
+          <i class="fa fa-utensils fa-3x accent"></i>
+          <h3>Catering Support</h3>
+          <p>External/partner caterers allowed; kitchen prep area available.</p>
+        </div>
+
+        <div class="fac-card glass" data-aos="flip-left" data-aos-delay="400">
+          <i class="fa fa-parking fa-3x accent"></i>
+          <h3>Parking</h3>
+          <p>Spacious parking for guests, with valet options on request.</p>
+        </div>
+
+        <div class="fac-card glass" data-aos="flip-left" data-aos-delay="500">
+          <i class="fa fa-shield-alt fa-3x accent"></i>
+          <h3>Security & Staff</h3>
+          <p>Trained staff and optional security arrangements available.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div><h4>Sri Sai Krishna Mahal</h4><p>Elegant events • Friendly staff</p></div>
+      <div><h4>Quick Links</h4><a href="book.html">Book Now</a></div>
+      <div><h4>Contact</h4><p>+91 98xxxxxxx</p></div>
+    </div>
+    <div class="copyright">© <span id="year2"></span> Sri Sai Krishna Mahal</div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script src="assets/script.js"></script>
+  <script> AOS.init({duration:800, once:true}); </script>
+</body>
+</html>

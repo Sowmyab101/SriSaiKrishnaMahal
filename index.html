@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Sri Sai Krishna Mahal — Home</title>
+
+  <!-- Google Fonts & AOS & Font Awesome -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  
+  <!-- Floating Background Shapes -->
+  <div class="bg-shape circle1"></div>
+  <div class="bg-shape circle2"></div>
+  <div class="bg-shape circle3"></div>
+
+  <div class="bg-shape square1"></div>
+  <div class="bg-shape square2"></div>
+
+  <div class="bg-shape triangle1"></div>
+  <div class="bg-shape triangle2"></div>
+
+  <div class="bg-shape blob1"></div>
+  <div class="bg-shape blob2"></div>
+  <div class="bg-shape blob3"></div>
+
+  <!-- Continue with your actual site content below -->
+
+  <!-- your website content starts here -->
+
+  <header class="nav-wrap glass">
+    <div class="container nav">
+      <a class="brand" href="index.html">Sri Sai Krishna Mahal</a>
+      <nav class="nav-links" id="navLinks">
+        <a href="index.html" class="active">Home</a>
+        <a href="facilities.html">Facilities</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="book.html">Book Now</a>
+        <a href="contact.html">Contact</a>
+        <a href="admin.html">Admin</a>
+      </nav>
+      <button id="navToggle" aria-label="toggle"><i class="fa fa-bars"></i></button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero gradient" id="home">
+      <div class="container hero-inner" data-aos="fade-up">
+        <div class="hero-text">
+          <h1>Sri Sai Krishna Mahal</h1>
+          <p class="lead">A modern, warm and colorful hall for your celebrations. Stylish interiors, full facilities and memorable events.</p>
+          <div class="cta">
+            <a href="book.html" class="btn-primary">Book Now</a>
+            <a href="facilities.html" class="btn-outline">View Facilities</a>
+          </div>
+        </div>
+        <div class="hero-image" data-aos="zoom-in">
+          <img src="assets/hall.jpg" alt="Sri Sai Krishna Hall" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about container" data-aos="fade-up">
+      <div class="cards grid-3">
+        <article class="card glass" data-aos="fade-right">
+          <i class="fa fa-heart fa-2x accent"></i>
+          <h3>Warm Ambiance</h3>
+          <p>Beautiful lighting and contemporary decor that makes every event feel special.</p>
+        </article>
+
+        <article class="card glass" data-aos="fade-up">
+          <i class="fa fa-utensils fa-2x accent"></i>
+          <h3>Catering Support</h3>
+          <p>Flexible catering options & service partners to meet your needs.</p>
+        </article>
+
+        <article class="card glass" data-aos="fade-left">
+          <i class="fa fa-map-marker-alt fa-2x accent"></i>
+          <h3>Convenient Location</h3>
+          <p>Easy parking, good connectivity and a calm neighborhood for guests.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- FEATURES / HIGHLIGHTS -->
+    <section class="highlights gradient-light" data-aos="fade-up">
+      <div class="container highlights-inner">
+        <div class="highlight-text">
+          <h2>Why choose Sri Sai Krishna Mahal?</h2>
+          <ul class="feature-list">
+            <li data-aos="fade-right" data-aos-delay="50"><i class="fa fa-check-circle"></i> Professional event management assistance</li>
+            <li data-aos="fade-right" data-aos-delay="100"><i class="fa fa-check-circle"></i> State-of-the-art sound & lights</li>
+            <li data-aos="fade-right" data-aos-delay="150"><i class="fa fa-check-circle"></i> Customizable layouts</li>
+          </ul>
+        </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIAL -->
+    <section class="testimonial container" data-aos="fade-up">
+      <h3>Happy Clients</h3>
+      <div class="testimonial-card glass">
+        <p>"We had our child's Birthday Celeabration here — everything was organized smoothly and guests loved it."</p>
+        <div class="t-footer">
+          <div><strong>Ravi & Priya</strong><span>— Sep 2025</span></div>
+          <div class="rating">★★★★★</div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h4>Sri Sai Krishna Mahal</h4>
+        <p>Elegant events • Friendly staff • Memorable moments</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <a href="facilities.html">Facilities</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="book.html">Book Now</a>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p><i class="fa fa-phone"></i> +91 98xxxxxxx</p>
+        <p><i class="fa fa-map-marker-alt"></i> Your city, India</p>
+      </div>
+    </div>
+    <div class="copyright">© <span id="year"></span> Sri Sai Krishna Mahal</div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script src="assets/script.js"></script>
+  <script> AOS.init({duration:800, once:true}); </script>
+</body>
+</html>

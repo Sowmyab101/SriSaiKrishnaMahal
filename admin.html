@@ -4,7 +4,6 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Admin — Sri Sai Krishna Mahal</title>
-
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
   <link rel="stylesheet" href="style.css" />
@@ -14,13 +13,10 @@
   <div class="bg-shape circle1"></div>
   <div class="bg-shape circle2"></div>
   <div class="bg-shape circle3"></div>
-
   <div class="bg-shape square1"></div>
   <div class="bg-shape square2"></div>
-
   <div class="bg-shape triangle1"></div>
   <div class="bg-shape triangle2"></div>
-
   <div class="bg-shape blob1"></div>
   <div class="bg-shape blob2"></div>
   <div class="bg-shape blob3"></div>
@@ -45,7 +41,6 @@
     <section class="admin-panel" data-aos="fade-up">
       <h1>Admin Dashboard</h1>
       <p class="lead">Secure area — enter admin password to view bookings.</p>
-
       <!-- Login -->
       <div class="admin-card glass">
         <label>
@@ -56,17 +51,14 @@
           <button id="adminLogin" class="btn-primary">Login</button>
           <button id="logoutBtn" class="btn-outline" style="display:none">Logout</button>
         </div>
-
         <div id="adminMsg" class="form-msg"></div>
       </div>
-
       <!-- Bookings table -->
       <div id="bookingsArea" style="display:none;" data-aos="fade-up">
         <div class="admin-controls">
           <button id="exportCsv" class="btn-outline"><i class="fa fa-file-csv"></i> Export CSV</button>
           <button id="clearBookings" class="btn-danger"><i class="fa fa-trash"></i> Clear All</button>
         </div>
-
         <table class="bookings-table" id="bookingsTable">
           <thead>
             <tr>
@@ -76,18 +68,15 @@
           <tbody></tbody>
         </table>
       </div>
-
       <p class="security-note"></p>
     </section>
   </main>
-
   <footer class="site-footer">
     <div class="container footer-grid">
       <div><h4>Sri Sai Krishna Mahal</h4><p>Elegant events • Friendly staff</p></div>
     </div>
     <div class="copyright">© <span id="year6"></span> Sri Sai Krishna Mahal</div>
   </footer>
-
   <script src="assets/script.js"></script>
   <script>
     // Admin password hash for demo (sha256 of "Admin@123"):
@@ -115,3 +104,4 @@
 
 </body>
 </html>
+
